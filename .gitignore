@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Flask / instance folder (contains secrets)
+instance/
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Compiled files
+*.so
+
+# macOS
+.DS_Store
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# pipenv / poetry files
+Pipfile.lock
+.poetry/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# MyPy / type checker
+.mypy_cache/
+
+# Flask cache folders
+cache/
